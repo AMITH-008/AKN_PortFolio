@@ -18,6 +18,7 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
+import android from "./tech/android.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -57,4 +58,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  android
 };
