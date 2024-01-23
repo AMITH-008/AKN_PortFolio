@@ -22,7 +22,8 @@ import {
     tripguide,
     samsung,
     threejs,
-    android
+    android,
+    resume
   } from "../assets";
   
   export const navLinks = [
@@ -38,6 +39,11 @@ import {
       id: "contact",
       title: "Contact",
     },
+    {
+      id:"resume",
+      title:"Resume",
+      doc:resume
+    }
   ];
   
   const services = [

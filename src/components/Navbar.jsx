@@ -24,7 +24,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Amith K N &nbsp;
-            <span className='sm:block hidden'> |Software Developer</span>
+            <span className='sm:block hidden'> | Software Developer</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 setActive(link.title)
               }}
               >
-                <a href={`#${link.id}`}>{link.title}</a>
+                {link.id === "resume" ? <a href={link.doc}download>{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a> }
               </li>
           })
           }
@@ -56,7 +56,7 @@ const Navbar = () => {
                       setActive(link.title);
                     }}
                     >
-                      <a href={`#${link.id}`}>{link.title}</a>
+                      {link.id === "resume" ? <a href={link.doc}download>{link.title}</a> : <a href={`#${link.id}`}>{link.title}</a> }
                     </li>
                   })
                 }
