@@ -94,7 +94,7 @@ import {
       company_name: "Samsung",
       icon:samsung,
       iconBg: "#ececec",
-      date: "July 2020 - Current",
+      date: "July 2022 - Current",
       points: [
         "Engineered and deployed cutting-edge native Android applications for mid-range smartphones, leading feature development and integration of third-party APIs.",
         "Collaborated cross-functionally to design, test, and implement features, ensuring robust, reliable code.",
@@ -173,7 +173,7 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
+      name: "Prajwal Venkat",
       designation: "CFO",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -188,7 +188,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After AKN optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
